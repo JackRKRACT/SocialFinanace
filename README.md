@@ -22,23 +22,5 @@ Features :
         <p>This will allow comparisons of two or more stocks on the variety of metrics within the grading system.</p>
         </p>
     </li>
-    <li>
-        <p>
-        <b>Show change in Reddit ‘grades’ over specific timeframes.</b> 
-        <p>Users define a period of time and can view the data results from posts that were posted during that particular time frame.</p>
-        </p>
-    </li>
-    <li>
-        <p>
-        <b>Create user interface/web program to interact with scraped data.</b> 
-        <p>This interface will allow users to monitor subreddit and stock ‘grades’, along with any specified comparisons and timeframes.</p>
-        </p>
-    </li>
-    <li>
-        <p>
-        <b>User accounts and preferences with database linked authentication.</b> 
-        <p>Users will have accounts to save and load viewing history, along with any specified comparisons and time frames.</p>
-        </p>
-    </li>
 </ul>
 
