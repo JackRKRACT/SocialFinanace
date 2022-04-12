@@ -1,0 +1,139 @@
+.App {
+  height:100vh;
+  width:100%;
+}
+
+#root {
+  width:100%;
+  height:100%;
+  display:flex;
+  align-items:center;
+}
+
+.topbutton {
+  position: relative;
+  display: flex;
+  border-radius: 1px;
+  background-color: #28262C;
+  border: solid 1px transparent;
+  color: white;
+  margin-left:5px;
+  margin-right:5px;
+  font-size: calc(3px + 2vmin);
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.topbutton:hover{
+  color:#61dafb;
+  transition: all .3s ease-in-out;
+}
+
+#title {
+  font-size: calc(15px + 2vmin);
+  color: #61dafb;
+  display:flex;
+  padding-left:20px;
+  padding-right:20px;
+}
+#headerbuttons {
+  padding-right:20px;
+  margin-left:auto;
+  display:flex;
+}
+
+header {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top:20px;
+  padding-bottom: 20px;
+  position:fixed;
+  z-index:1;
+  width:100%;
+  background-color: #28262C;
+  font-size: calc(5px + 2vmin);
+  color: white;
+  max-height:10%;
+}
+
+body {
+  display:flex;
+  background-color:#dae4f0;
+  height:100%;
+}
+
+.bodystate {
+  margin:auto;
+  max-height:30px;
+  display:grid;
+}
+
+.authstate {
+  margin:auto;
+  max-height:100px;
+  display:grid;
+}
+
+.testpages {
+  margin:auto;
+  display:flex;
+}
+
+.searchinput {
+  border: 0px solid black;
+  border-bottom: 2px solid black;
+  outline: none;
+  background-color:#dae4f0;
+  color:black;
+  font-size: calc(3px + 2vmin);
+}
+
+.searchinput:focus {
+  transition: border-bottom .15s ease-in-out;
+  border-bottom: 2px solid #61dafb;
+}
+
+p {
+  font-size: calc(15px + 2vmin);
+  color: black;
+  display:flex;
+  padding-left:20px;
+  padding-right:20px;
+  margin:auto;
+}
+
+pre {
+  font-size: calc(15px + 2vmin);
+  color: black;
+  display:flex;
+  padding-left:20px;
+  padding-right:20px;
+  margin:auto;
+}
+
+.bodybutton {
+  border-radius: 1px;
+  background-color: #dae4f0;
+  border: solid 1px transparent;
+  color: black;
+  margin-left:5px;
+  margin-right:5px;
+  font-size: calc(3px + 2vmin);
+  font-weight: 300;
+  cursor: pointer;
+}
+.bodybutton:hover{
+  color:#61dafb;
+  transition: all .3s ease-in-out;
+}
+
+.searched {
+  font-size: calc(5px + 2vmin);
+  color: black;
+  display:flex;
+}
+
+.App-link {
+  color: #61dafb;
+}
