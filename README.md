@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Social Finance
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The purpose of this project is to scrape financial data from the Reddit API, interpret the data, and display the user relevant social media statistics surrounding tradable stocks.
 
-## Available Scripts
+Features : 
+<ul>
+    <li>
+        <p>
+        <b>Scrape and parse data from Reddit’s API.</b> 
+        <p>This will parse data on different elements within Reddit, at least once a day. These elements include post type, submission time, net score, and mentioned stocks.</p>
+        </p>
+    </li>
+    <li>
+        <p>
+        <b>Establish individual stock trends, referred to as ‘grades’.</b> 
+        <p>‘Grades’ will be determined by the frequency of posts and comments relating to a particular stock, and the reception of these posts within the Reddit voting system.</p>
+        </p>
+    </li>
+    <li>
+        <p>
+        <b>Select and compare specific stock ‘grades’ within our platform.</b> 
+        <p>This will allow comparisons of two or more stocks on the variety of metrics within the grading system.</p>
+        </p>
+    </li>
+    <li>
+        <p>
+        <b>Show change in Reddit ‘grades’ over specific timeframes.</b> 
+        <p>Users define a period of time and can view the data results from posts that were posted during that particular time frame.</p>
+        </p>
+    </li>
+    <li>
+        <p>
+        <b>Create user interface/web program to interact with scraped data.</b> 
+        <p>This interface will allow users to monitor subreddit and stock ‘grades’, along with any specified comparisons and timeframes.</p>
+        </p>
+    </li>
+    <li>
+        <p>
+        <b>User accounts and preferences with database linked authentication.</b> 
+        <p>Users will have accounts to save and load viewing history, along with any specified comparisons and time frames.</p>
+        </p>
+    </li>
+</ul>
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
