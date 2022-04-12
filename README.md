@@ -22,5 +22,11 @@ Features :
         <p>This will allow comparisons of two or more stocks on the variety of metrics within the grading system.</p>
         </p>
     </li>
+    <li>
+        <p>
+        <b>User accounts and preferences with database linked authentication.</b> 
+        <p>Users will have accounts to save and load viewing history, along with any specified comparisons and time frames.</p>
+        </p>
+    </li>
 </ul>
 
